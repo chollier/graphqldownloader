@@ -1,6 +1,6 @@
 {
   "name": "graphqldownloader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Command Line utility to download a GraphQL JSON representation",
   "main": "index.js",
   "bin": {
@@ -9,11 +9,9 @@
   "repository": "http://github.com/chollier/graphqldownloader",
   "author": "Loïc CHOLLIER <loic@chollier.com>",
   "license": "WTF",
-  "devDependencies": {
-    "graphql": "^0.6.2",
-    "node-fetch": "^1.5.3"
-  },
   "dependencies": {
+    "graphql": "^0.6.2",
+    "node-fetch": "^1.5.3",
     "commander": "^2.9.0"
   }
 }
